@@ -54,6 +54,7 @@ group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem "capybara"
   gem "selenium-webdriver"
+  gem "rspec-rails"
 end
 gem "devise", "~> 4.8", ">= 4.8.1"
 gem "friendly_id", "~> 5.4", ">= 5.4.2"

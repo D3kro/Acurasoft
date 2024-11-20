@@ -1,10 +1,12 @@
  <head>
   <title>
-    <%= content_for?(:title) ? yield(:title) : "Kickoff Tailwind" %>
+    <%= content_for?(:title) ? yield(:title) : "Acurasoft" %>
   </title>
 
   <%= csrf_meta_tags %>
   <%= csp_meta_tag %>
+
+  <link rel="icon" href="<%= asset_path('logo.png') %>" type="image/x-icon">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <%= stylesheet_link_tag  'application', 'data-turbolinks-track': 'reload' %>
